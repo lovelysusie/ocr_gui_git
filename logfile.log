@@ -1,0 +1,1067 @@
+2020-07-16 17:32:29,445-INFO: Processing File: D:/samples/WE 15-5-16 (DF).pdf
+2020-07-16 17:34:16,351-INFO: Processing File: D:/samples/WE 29-5-16 (DF).pdf
+2020-07-16 17:34:40,778-INFO: Processing File: D:/GradientDescent.pdf
+2020-07-16 17:43:03,178-INFO: Processing File: D:/samples/WE 22-5-16 (DF).pdf
+2020-07-16 17:43:11,188-INFO: Processing Page: 0
+2020-07-16 17:43:14,482-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-16 17:43:15,051-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-16 17:43:15,829-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-16 17:43:16,730-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-07-16 17:43:17,322-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-07-16 17:43:18,151-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-07-16 17:43:20,228-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-16 17:43:20,681-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-16 17:43:20,978-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-16 17:43:21,215-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-16 17:43:21,430-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-16 17:43:21,633-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-16 17:43:21,949-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-16 17:43:22,139-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-16 17:43:22,331-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-16 17:43:23,302-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-07-16 17:43:23,474-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-07-16 17:43:23,653-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-07-16 17:43:23,989-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-07-16 17:43:24,209-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-07-16 17:43:25,129-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-07-16 17:43:28,977-INFO: Auto Straighten Image
+2020-07-16 17:43:46,807-WARNING: Failed to see startup log message; retrying...
+2020-07-16 17:43:51,810-WARNING: Failed to see startup log message; retrying...
+2020-07-16 17:43:56,810-WARNING: Failed to see startup log message; retrying...
+2020-07-16 17:44:01,812-ERROR: Tika startup log message not received after 3 tries.
+2020-07-16 17:44:01,813-ERROR: Failed to receive startup confirmation from startServer.
+2020-07-16 17:44:21,181-WARNING: Failed to see startup log message; retrying...
+2020-07-16 17:44:26,183-WARNING: Failed to see startup log message; retrying...
+2020-07-16 17:44:31,185-WARNING: Failed to see startup log message; retrying...
+2020-07-16 17:44:36,186-ERROR: Tika startup log message not received after 3 tries.
+2020-07-16 17:44:36,188-ERROR: Failed to receive startup confirmation from startServer.
+2020-07-16 17:44:41,169-INFO: Undo
+2020-07-16 17:44:48,491-INFO: Processing Page: 0
+2020-07-21 13:49:30,923-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-07-21 13:49:40,146-INFO: Processing Page: 2
+2020-07-21 13:49:45,703-WARNING: Failed to see startup log message; retrying...
+2020-07-21 13:50:41,748-INFO: Undo
+2020-07-21 13:50:42,665-INFO: Undo
+2020-07-21 14:06:12,399-INFO: Processing File: D:/samples/WE 15-5-16 (DF).pdf
+2020-07-21 14:06:20,516-INFO: Processing Page: 0
+2020-07-21 17:05:23,494-INFO: Processing File: D:/samples/WE 29-5-16 (DF).pdf
+2020-07-21 17:05:45,616-INFO: Processing Page: 0
+2020-07-21 17:05:48,509-INFO: Auto Table Lines Removal
+2020-07-21 17:06:02,103-INFO: Remove Area 117.77075098814228,1078.0553359683793,2099.490118577075,1542.3438735177865
+2020-07-21 17:06:11,674-INFO: Remove Area 124.56521739130434,38.50197628458498,2230.8498023715415,251.39525691699603
+2020-07-21 17:06:16,875-INFO: Remove Area 1952.276679841897,9.059288537549406,2292.0,79.26877470355731
+2020-07-22 10:23:02,233-INFO: Processing File: D:/samples/Aug2015.pdf
+2020-07-22 10:23:29,206-INFO: Processing Page: 0
+2020-07-22 11:19:49,748-INFO: Processing File: D:/samples/GaussianBlurdilate.pdf
+2020-07-22 11:19:58,106-INFO: Processing Page: 0
+2020-07-22 11:21:49,936-INFO: Draw Auxiliary Lines
+2020-07-22 11:21:56,622-INFO: Auto Straighten Image
+2020-07-22 11:22:00,238-INFO: Undo
+2020-07-22 11:22:09,615-INFO: Crop Image to Width 9750 Height 6892
+2020-07-22 11:22:58,344-INFO: Processing File: D:/GradientDescent.pdf
+2020-07-22 11:23:00,794-INFO: Processing Page: 0
+2020-07-22 11:23:07,834-INFO: Crop Image to Width 1654 Height 2339
+2020-07-22 11:23:15,994-WARNING: Failed to see startup log message; retrying...
+2020-07-22 11:23:20,999-WARNING: Failed to see startup log message; retrying...
+2020-07-22 11:23:26,000-WARNING: Failed to see startup log message; retrying...
+2020-07-22 11:23:31,003-ERROR: Tika startup log message not received after 3 tries.
+2020-07-22 11:23:31,003-ERROR: Failed to receive startup confirmation from startServer.
+2020-07-22 11:25:20,287-INFO: Processing Page: 2
+2020-07-22 11:25:36,531-INFO: Processing Page: 4
+2020-07-22 11:25:42,425-INFO: Crop Image to Width 1654 Height 2339
+2020-07-22 16:39:50,054-INFO: Processing File: D:/samples/page20_grid_new.pdf
+2020-07-22 16:39:55,173-INFO: Processing Page: 0
+2020-07-22 16:51:14,633-INFO: Processing File: D:/samples/Pages from Pages from 3_Unit_2000_Regas_B.489.pdf
+2020-07-22 16:51:21,230-INFO: Processing Page: 0
+2020-07-22 16:51:31,203-INFO: Crop Image to Width 1654 Height 2340
+2020-07-22 16:51:35,669-WARNING: Failed to see startup log message; retrying...
+2020-07-22 16:51:40,673-WARNING: Failed to see startup log message; retrying...
+2020-07-22 16:51:45,675-WARNING: Failed to see startup log message; retrying...
+2020-07-22 16:51:50,676-ERROR: Tika startup log message not received after 3 tries.
+2020-07-22 16:51:50,678-ERROR: Failed to receive startup confirmation from startServer.
+2020-07-22 16:52:02,334-WARNING: Got stderr: Jul 22, 2020 4:52:01 PM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'ArialMT' for 'ArialUnicodeMS'
+
+2020-07-22 16:53:57,086-INFO: Processing File: D:/samples/Pages from Pages from 3_Unit_2000_Regas_B.489.pdf
+2020-07-22 16:54:00,140-INFO: Processing Page: 0
+2020-07-22 16:54:07,420-INFO: Crop Image to Width 1654 Height 2340
+2020-07-22 16:54:11,113-WARNING: Failed to see startup log message; retrying...
+2020-07-22 16:54:16,115-WARNING: Failed to see startup log message; retrying...
+2020-07-22 16:54:21,116-WARNING: Failed to see startup log message; retrying...
+2020-07-22 16:54:26,117-ERROR: Tika startup log message not received after 3 tries.
+2020-07-22 16:54:26,118-ERROR: Failed to receive startup confirmation from startServer.
+2020-07-22 16:57:04,194-INFO: Processing File: D:/samples/Pages from Pages from 3_Unit_2000_Regas_B.489.pdf
+2020-07-22 16:57:06,721-INFO: Processing Page: 0
+2020-07-22 16:57:15,936-INFO: Crop Image to Width 1654 Height 2340
+2020-07-22 16:57:18,940-WARNING: Failed to see startup log message; retrying...
+2020-07-22 16:57:23,941-WARNING: Failed to see startup log message; retrying...
+2020-07-22 16:57:28,944-WARNING: Failed to see startup log message; retrying...
+2020-07-22 16:57:33,946-ERROR: Tika startup log message not received after 3 tries.
+2020-07-22 16:57:33,947-ERROR: Failed to receive startup confirmation from startServer.
+2020-07-22 16:57:57,212-WARNING: Failed to see startup log message; retrying...
+2020-07-22 16:58:02,215-WARNING: Failed to see startup log message; retrying...
+2020-07-22 16:58:07,217-WARNING: Failed to see startup log message; retrying...
+2020-07-22 16:58:12,218-ERROR: Tika startup log message not received after 3 tries.
+2020-07-22 16:58:12,220-ERROR: Failed to receive startup confirmation from startServer.
+2020-07-22 16:58:43,842-WARNING: Got stderr: Jul 22, 2020 4:58:43 PM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'ArialMT' for 'ArialUnicodeMS'
+
+2020-07-23 09:07:38,241-INFO: Processing File: D:/samples/Pages from WE 22-5-16 (DF).pdf
+2020-07-23 09:07:50,895-INFO: Processing Page: 0
+2020-07-23 09:08:01,769-INFO: Remove Area 707.7245804540968,4680.418558736427,9068.310957551827,6388.393879565647
+2020-07-23 09:08:06,556-INFO: Remove Area 830.3968410661403,4586.0552813425475,8030.314906219151,5274.907206317868
+2020-07-23 09:08:11,913-INFO: Remove Area 575.6159921026654,141.54491609081936,9502.382033563674,1075.7413622902272
+2020-07-23 09:08:15,118-INFO: Remove Area 8171.859822309971,18.872655478775915,9502.382033563674,283.0898321816387
+2020-07-23 09:08:58,290-INFO: Crop Image to Width 9559 Height 6734
+2020-07-23 10:08:03,539-INFO: Processing File: D:/samples/Pages from WE 22-5-16 (DF).pdf
+2020-07-23 10:08:15,672-INFO: Processing Page: 0
+2020-07-23 10:08:22,751-INFO: Auto Straighten Image
+2020-07-23 10:15:12,992-INFO: Processing File: D:/samples/Pages from WE 22-5-16 (DF).pdf
+2020-07-23 10:15:25,566-INFO: Processing Page: 0
+2020-07-23 10:55:02,352-INFO: Processing File: D:/samples/Pages from WE 22-5-16 (DF).pdf
+2020-07-23 10:55:15,801-INFO: Processing Page: 0
+2020-07-23 10:55:26,945-INFO: Draw Auxiliary Lines
+2020-07-23 10:55:52,705-INFO: Auto Straighten Image
+2020-07-23 10:56:02,985-INFO: Crop Image to Width 7857 Height 3372
+2020-07-23 10:56:07,161-WARNING: Failed to see startup log message; retrying...
+2020-07-23 10:57:55,327-INFO: Undo
+2020-07-23 10:58:01,475-INFO: Crop Image to Width 7857 Height 3372
+2020-07-23 10:58:12,293-INFO: Undo
+2020-07-23 10:58:18,616-INFO: Crop Image to Width 7857 Height 3372
+2020-07-23 15:46:31,867-INFO: Processing File: D:/samples/Pages from WE 22-5-16 (DF).pdf
+2020-07-23 15:46:43,559-INFO: Processing Page: 0
+2020-07-23 15:47:00,059-INFO: Draw Auxiliary Lines
+2020-07-23 15:47:06,471-INFO: Undo
+2020-07-23 15:47:21,810-INFO: Crop Image to Width 9559 Height 6734
+2020-07-23 15:48:31,148-INFO: Processing File: D:/samples/Pages from WE 22-5-16 (DF).pdf
+2020-07-23 15:48:44,435-INFO: Processing Page: 0
+2020-07-23 15:48:54,923-INFO: Auto Straighten Image
+2020-07-23 15:49:20,337-INFO: Crop Image to Width 7857 Height 3372
+2020-07-23 15:49:56,367-INFO: Processing File: D:/samples/Pages from WE 22-5-16 (DF).pdf
+2020-07-23 15:50:09,404-INFO: Processing Page: 0
+2020-07-23 15:50:19,424-INFO: Crop Image to Width 9559 Height 6734
+2020-07-23 15:50:45,562-INFO: Processing File: D:/samples/Pages from Aug2015.pdf
+2020-07-23 15:50:48,182-INFO: Processing Page: 0
+2020-07-23 15:50:53,622-INFO: Crop Image to Width 2340 Height 1654
+2020-07-23 15:51:03,069-INFO: Crop Image to Width 1047 Height 1367
+2020-07-28 08:10:27,595-INFO: Processing File: D:/samples/page20_grid_new.pdf
+2020-07-28 08:10:36,194-INFO: Processing Page: 0
+2020-07-28 08:11:46,515-INFO: Processing File: D:/samples/Pages from Aug2015 part1.pdf
+2020-07-28 08:11:49,560-INFO: Processing Page: 0
+2020-07-28 08:13:03,772-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-07-28 08:13:09,370-INFO: Processing Page: 1
+2020-07-28 08:14:47,370-INFO: Processing File: D:/samples/Pages from Aug2015 part1.pdf
+2020-07-28 08:15:03,289-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-07-28 08:15:07,025-INFO: Processing Page: 1
+2020-07-28 08:15:21,033-INFO: Processing Page: 2
+2020-07-28 08:15:52,224-INFO: Processing Page: 3
+2020-07-28 08:18:24,193-INFO: Processing File: D:/samples/Pages from WE 22-5-16 (DF).pdf
+2020-07-28 08:18:35,325-INFO: Processing Page: 0
+2020-07-28 08:18:41,220-INFO: Auto Straighten Image
+2020-07-28 08:58:10,235-INFO: Processing File: D:/samples/WE 15-5-16 (DF).pdf
+2020-07-28 08:58:17,240-INFO: Processing Page: 0
+2020-07-28 08:58:19,245-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-07-28 08:58:23,611-INFO: Auto Straighten Image
+2020-07-28 08:58:25,441-INFO: Draw Auxiliary Lines
+2020-07-28 08:58:31,707-INFO: Undo
+2020-07-28 08:58:37,710-INFO: Draw Auxiliary Lines
+2020-07-28 08:58:40,749-INFO: Auto Table Lines Removal
+2020-07-28 08:58:48,535-WARNING: Failed to see startup log message; retrying...
+2020-07-28 08:59:34,449-INFO: Remove Area 1798.4767556874383,459.8120672601385,2124.6488625123643,1060.059347181009
+2020-07-28 08:59:38,676-INFO: Remove Area 1608.2096933728983,477.93273986152326,2015.9248269040554,1105.361028684471
+2020-07-28 09:02:12,056-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-07-28 09:02:20,315-INFO: Processing Page: 1
+2020-07-28 09:02:25,498-INFO: Converting to Table
+2020-07-28 09:03:08,009-INFO: Processing File: D:/samples/Pages from Aug2015 part1.pdf
+2020-07-28 09:03:15,864-INFO: Processing Page: 0
+2020-07-28 09:03:43,536-INFO: Auto Table Lines Removal
+2020-07-28 09:23:01,040-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-07-28 09:23:23,300-INFO: Processing Page: 0
+2020-07-28 09:58:15,082-INFO: Processing File: D:/samples/New folder/CH Delay Notifications.pdf
+2020-07-28 09:58:24,340-INFO: Processing Page: 0
+2020-07-28 09:59:02,729-INFO: Processing Page: 2
+2020-07-28 10:01:26,524-INFO: Processing File: D:/samples/Pages from Aug2015 part1.pdf
+2020-07-28 10:01:30,364-INFO: Processing Page: 0
+2020-07-28 10:01:45,872-INFO: Crop Image to Width 1536 Height 1778
+2020-07-28 10:04:03,086-INFO: Processing File: D:/10 Mar OCR work/2014.07 - Program of Works (rev. 3).pdf
+2020-07-28 10:04:11,669-INFO: Processing Page: 1
+2020-07-28 10:04:15,422-INFO: Converting to Table
+2020-07-28 10:12:04,337-INFO: Processing File: D:/samples/BAP-MOM-RS-PS-0267 Commissioning Daily Activity 2017.07.15.pdf
+2020-07-28 10:12:07,824-INFO: Processing Page: 0
+2020-07-28 10:12:20,263-INFO: Crop Image to Width 1654 Height 2340
+2020-07-28 10:12:35,704-INFO: Crop Image to Width 1401 Height 735
+2020-07-28 10:13:25,990-INFO: Undo
+2020-07-28 10:13:45,904-INFO: Crop Image to Width 1401 Height 735
+2020-07-28 10:13:52,559-INFO: Undo
+2020-07-28 10:13:59,960-INFO: Crop Image to Width 1401 Height 735
+2020-07-28 10:14:07,407-INFO: Processing Page: 0
+2020-07-28 10:14:58,134-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-07-28 10:15:08,092-INFO: Processing Page: 0
+2020-07-28 10:15:14,158-INFO: Auto Table Lines Removal
+2020-07-28 10:15:17,751-INFO: Undo
+2020-07-28 10:17:45,759-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-07-28 10:17:54,035-INFO: Processing Page: 0
+2020-07-28 10:18:49,055-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-07-28 10:18:57,446-INFO: Processing Page: 0
+2020-07-28 11:55:50,963-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-07-28 11:55:59,852-INFO: Processing Page: 0
+2020-07-28 11:56:37,290-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-07-28 11:56:45,935-INFO: Processing Page: 0
+2020-07-28 11:57:30,581-INFO: Converting to Table
+2020-07-28 17:37:23,905-INFO: Processing File: D:/samples/1B-Vol No.1 57 - Copy.pdf
+2020-07-28 17:37:30,259-INFO: Processing Page: 0
+2020-07-28 17:37:47,087-INFO: Remove Area 130.34851485148513,424.839603960396,4634.6138613861385,951.0613861386138
+2020-07-28 17:37:53,121-INFO: Remove Area 3215.2633663366337,782.0910891089109,4388.4,965.5445544554456
+2020-07-28 17:37:56,267-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-07-28 17:37:57,712-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-07-28 17:38:04,564-INFO: Remove Area 111.03762376237623,1771.7742574257425,4581.508910891089,2838.7009900990097
+2020-07-28 17:38:09,262-INFO: Remove Area 125.52079207920792,3123.536633663366,4774.617821782178,3335.9564356435644
+2020-07-28 17:38:19,153-INFO: Converting to Table
+2020-07-28 17:38:33,741-INFO: Crop Image to Width 4876 Height 3446
+2020-07-28 17:38:37,464-INFO: Converting to Table
+2020-07-28 17:38:57,390-INFO: Undo
+2020-07-30 16:44:26,258-INFO: Processing File: C:/Users/haonan.liu/Downloads/An_MPI_Implementation_of_the_Fast_Messy_Genetic_Al.pdf
+2020-07-30 16:44:33,876-INFO: Processing Page: 1
+2020-07-30 16:44:38,898-WARNING: Failed to see startup log message; retrying...
+2020-07-30 16:45:15,111-INFO: Processing Page: 2
+2020-07-30 16:45:35,609-INFO: Processing File: D:/samples/UK project/F101 - Consultant Costs Breakdown (003) 16.pdf
+2020-07-30 16:45:40,421-INFO: Processing Page: 0
+2020-07-30 16:45:43,744-INFO: Converting to Table
+2020-07-30 17:18:37,592-INFO: Processing File: D:/simple_demo.pdf
+2020-07-30 17:18:39,661-INFO: Processing Page: 0
+2020-07-30 17:18:41,832-WARNING: Got stderr: Jul 30, 2020 5:18:41 PM org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode
+WARNING: No Unicode mapping for .notdef (10) in font Helvetica-Bold
+
+2020-07-30 17:18:41,841-INFO: Converting to Table
+2020-08-03 09:10:05,186-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 09:10:15,052-INFO: Processing Page: 0
+2020-08-03 09:19:24,970-INFO: Draw Auxiliary Lines
+2020-08-03 09:19:29,172-INFO: Auto Table Lines Removal
+2020-08-03 09:33:13,986-INFO: Remove Area 7826.2145178764895,744.8808234019501,8034.781148429035,6634.405200433369
+2020-08-03 09:33:20,086-INFO: Remove Area 6882.698808234019,615.7681473456121,7011.811484290357,6703.927410617551
+2020-08-03 09:33:44,146-INFO: Converting to Table
+2020-08-03 09:33:55,816-INFO: Undo
+2020-08-03 09:34:32,929-INFO: Converting to Table
+2020-08-03 09:44:16,139-INFO: Processing File: D:/samples/Pages from WE 22-5-16 (DF).pdf
+2020-08-03 09:44:29,683-INFO: Processing Page: 0
+2020-08-03 10:53:15,914-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 10:53:24,953-INFO: Processing Page: 0
+2020-08-03 10:53:28,845-INFO: Draw Auxiliary Lines
+2020-08-03 10:53:34,207-INFO: Draw Auxiliary Lines
+2020-08-03 10:55:30,383-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 10:55:39,027-INFO: Processing Page: 0
+2020-08-03 10:56:26,305-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 10:56:34,880-INFO: Processing Page: 0
+2020-08-03 10:56:38,986-INFO: Draw Auxiliary Lines
+2020-08-03 10:56:42,947-INFO: Draw Auxiliary Lines
+2020-08-03 10:56:44,076-INFO: Draw Auxiliary Lines
+2020-08-03 10:56:48,889-INFO: Auto Straighten Image
+2020-08-03 10:56:51,984-INFO: Draw Auxiliary Lines
+2020-08-03 10:59:12,272-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 10:59:20,500-INFO: Processing Page: 0
+2020-08-03 10:59:38,077-INFO: Auto Straighten Image
+2020-08-03 10:59:40,998-INFO: Draw Auxiliary Lines
+2020-08-03 11:00:34,836-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:00:43,618-INFO: Processing Page: 0
+2020-08-03 11:00:51,485-INFO: Auto Straighten Image
+2020-08-03 11:00:53,199-INFO: Draw Auxiliary Lines
+2020-08-03 11:06:03,134-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:06:12,192-INFO: Processing Page: 0
+2020-08-03 11:06:20,537-INFO: Auto Straighten Image
+2020-08-03 11:06:22,982-INFO: Draw Auxiliary Lines
+2020-08-03 11:06:53,259-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:07:01,733-INFO: Processing Page: 0
+2020-08-03 11:07:15,274-INFO: Auto Straighten Image
+2020-08-03 11:07:18,392-INFO: Draw Auxiliary Lines
+2020-08-03 11:07:54,930-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:08:03,437-INFO: Processing Page: 0
+2020-08-03 11:08:09,596-INFO: Auto Straighten Image
+2020-08-03 11:08:15,956-INFO: Draw Auxiliary Lines
+2020-08-03 11:08:53,897-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:09:02,404-INFO: Processing Page: 0
+2020-08-03 11:09:26,419-INFO: Auto Straighten Image
+2020-08-03 11:09:29,017-INFO: Draw Auxiliary Lines
+2020-08-03 11:09:57,944-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:10:06,584-INFO: Processing Page: 0
+2020-08-03 11:10:15,534-INFO: Auto Straighten Image
+2020-08-03 11:10:17,579-INFO: Draw Auxiliary Lines
+2020-08-03 11:27:17,023-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:27:24,920-INFO: Processing Page: 0
+2020-08-03 11:38:35,836-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:38:45,663-INFO: Processing Page: 0
+2020-08-03 11:39:48,757-INFO: Auto Straighten Image
+2020-08-03 11:39:53,933-INFO: Draw Auxiliary Lines
+2020-08-03 11:39:56,564-INFO: Draw Auxiliary Lines
+2020-08-03 11:39:58,761-INFO: Draw Auxiliary Lines
+2020-08-03 11:40:07,899-INFO: Draw Auxiliary Lines
+2020-08-03 11:44:23,929-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:44:31,912-INFO: Processing Page: 0
+2020-08-03 11:44:41,303-INFO: Auto Straighten Image
+2020-08-03 11:45:57,258-INFO: Draw Auxiliary Lines
+2020-08-03 11:45:59,454-INFO: Draw Auxiliary Lines
+2020-08-03 11:46:38,977-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:46:48,608-INFO: Processing Page: 0
+2020-08-03 11:48:14,368-INFO: Auto Straighten Image
+2020-08-03 11:48:15,774-INFO: Draw Auxiliary Lines
+2020-08-03 11:48:42,882-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:48:54,323-INFO: Processing Page: 0
+2020-08-03 11:52:15,378-INFO: Auto Straighten Image
+2020-08-03 11:52:17,513-INFO: Draw Auxiliary Lines
+2020-08-03 11:52:41,915-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:52:51,207-INFO: Processing Page: 0
+2020-08-03 11:54:18,484-INFO: Auto Straighten Image
+2020-08-03 11:54:21,274-INFO: Draw Auxiliary Lines
+2020-08-03 11:54:47,961-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 11:54:56,103-INFO: Processing Page: 0
+2020-08-03 11:55:27,933-INFO: Auto Straighten Image
+2020-08-03 11:55:29,531-INFO: Draw Auxiliary Lines
+2020-08-03 12:24:20,149-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 12:24:28,600-INFO: Processing Page: 0
+2020-08-03 12:24:35,834-INFO: Auto Straighten Image
+2020-08-03 12:24:38,252-INFO: Draw Auxiliary Lines
+2020-08-03 12:25:18,180-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 12:25:26,127-INFO: Processing Page: 0
+2020-08-03 12:25:37,637-INFO: Auto Straighten Image
+2020-08-03 12:25:39,874-INFO: Draw Auxiliary Lines
+2020-08-03 12:25:45,289-INFO: Draw Auxiliary Lines
+2020-08-03 12:26:14,602-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 12:26:24,332-INFO: Processing Page: 0
+2020-08-03 12:26:30,365-INFO: Auto Straighten Image
+2020-08-03 12:26:32,789-INFO: Draw Auxiliary Lines
+2020-08-03 12:27:24,649-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 12:27:34,008-INFO: Processing Page: 0
+2020-08-03 12:27:39,974-INFO: Auto Straighten Image
+2020-08-03 12:27:41,974-INFO: Draw Auxiliary Lines
+2020-08-03 12:29:12,773-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 12:29:21,799-INFO: Processing Page: 0
+2020-08-03 12:29:29,797-INFO: Auto Straighten Image
+2020-08-03 12:29:32,157-INFO: Draw Auxiliary Lines
+2020-08-03 12:34:05,742-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 12:34:17,466-INFO: Processing Page: 0
+2020-08-03 12:34:25,376-INFO: Auto Straighten Image
+2020-08-03 12:34:27,912-INFO: Draw Auxiliary Lines
+2020-08-03 12:36:47,555-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 12:36:55,799-INFO: Processing Page: 0
+2020-08-03 12:37:02,915-INFO: Auto Straighten Image
+2020-08-03 12:37:04,621-INFO: Draw Auxiliary Lines
+2020-08-03 13:17:02,383-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 13:17:11,788-INFO: Processing Page: 0
+2020-08-03 13:17:53,291-INFO: Auto Straighten Image
+2020-08-03 13:17:54,783-INFO: Draw Auxiliary Lines
+2020-08-03 13:18:50,367-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 13:18:59,241-INFO: Processing Page: 0
+2020-08-03 13:19:06,142-INFO: Auto Straighten Image
+2020-08-03 13:19:07,842-INFO: Draw Auxiliary Lines
+2020-08-03 13:20:29,117-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 13:20:38,386-INFO: Processing Page: 0
+2020-08-03 13:20:57,245-INFO: Auto Straighten Image
+2020-08-03 13:20:59,959-INFO: Draw Auxiliary Lines
+2020-08-03 13:21:09,538-INFO: Draw Auxiliary Lines
+2020-08-03 15:56:19,727-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 15:57:33,251-INFO: Processing Page: 0
+2020-08-03 15:57:40,451-INFO: Auto Straighten Image
+2020-08-03 15:57:43,327-INFO: Draw Auxiliary Lines
+2020-08-03 15:58:19,679-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 15:58:27,675-INFO: Processing Page: 0
+2020-08-03 15:58:52,205-INFO: Auto Straighten Image
+2020-08-03 16:00:06,789-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 16:00:31,520-INFO: Processing Page: 0
+2020-08-03 16:00:37,340-INFO: Auto Straighten Image
+2020-08-03 16:03:35,539-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 16:03:43,395-INFO: Processing Page: 0
+2020-08-03 16:03:51,353-INFO: Auto Straighten Image
+2020-08-03 16:10:17,679-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 16:10:25,815-INFO: Processing Page: 0
+2020-08-03 16:10:47,118-INFO: Auto Straighten Image
+2020-08-03 16:11:21,180-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 16:11:33,498-INFO: Processing Page: 0
+2020-08-03 16:11:39,036-INFO: Auto Straighten Image
+2020-08-03 16:12:08,414-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 16:12:15,477-INFO: Processing Page: 0
+2020-08-03 16:12:52,604-INFO: Auto Straighten Image
+2020-08-03 16:14:24,805-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 16:14:37,017-INFO: Processing Page: 0
+2020-08-03 16:14:43,002-INFO: Auto Straighten Image
+2020-08-03 16:15:22,383-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 16:15:40,457-INFO: Processing Page: 0
+2020-08-03 16:15:46,136-INFO: Auto Straighten Image
+2020-08-03 16:16:09,564-INFO: Undo
+2020-08-03 16:39:08,102-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 16:39:20,403-INFO: Processing Page: 0
+2020-08-03 16:39:27,022-INFO: Auto Straighten Image
+2020-08-03 16:41:24,852-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 16:41:35,477-INFO: Processing Page: 0
+2020-08-03 16:41:41,997-INFO: Auto Straighten Image
+2020-08-03 16:52:55,273-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 16:53:03,249-INFO: Processing Page: 0
+2020-08-03 16:54:20,883-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 16:54:29,356-INFO: Processing Page: 0
+2020-08-03 16:55:12,821-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-08-03 16:55:22,629-INFO: Processing Page: 0
+2020-08-04 11:48:03,192-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-04 11:48:09,592-INFO: Processing Page: 0
+2020-08-04 14:16:33,480-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-04 14:16:35,166-INFO: Processing Page: 0
+2020-08-04 14:16:39,527-WARNING: Got stderr: Aug 04, 2020 2:16:39 PM org.apache.pdfbox.pdmodel.font.PDCIDFontType2 <init>
+INFO: OpenType Layout tables used in font BCDGEE+TrebuchetMS-Bold are not implemented in PDFBox and will be ignored
+Aug 04, 2020 2:16:39 PM org.apache.pdfbox.pdmodel.font.PDCIDFontType2 <init>
+INFO: OpenType Layout tables used in font BCDHEE+TrebuchetMS are not implemented in PDFBox and will be ignored
+
+2020-08-04 14:16:39,537-INFO: Converting to Table
+2020-08-04 14:16:58,524-INFO: Processing Page: 1
+2020-08-04 14:17:01,064-INFO: Converting to Table
+2020-08-04 14:17:25,898-INFO: Processing Page: 2
+2020-08-04 14:17:29,023-INFO: Converting to Table
+2020-08-04 14:27:40,132-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-04 14:27:43,388-INFO: Processing Page: 0
+2020-08-04 14:27:51,229-INFO: Processing Page: 1
+2020-08-04 14:27:53,671-INFO: Converting to Table
+2020-08-04 14:47:29,523-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-04 14:47:33,181-INFO: Processing Page: 0
+2020-08-04 16:47:34,123-INFO: Processing File: D:/3 Feb OCR work/compile4.pdf
+2020-08-04 16:49:36,795-INFO: Processing Page: 7
+2020-08-04 16:53:01,946-INFO: Processing File: D:/samples/New folder/CH Delay Notifications.pdf
+2020-08-04 16:53:12,908-INFO: Processing Page: 0
+2020-08-04 16:53:29,542-INFO: Processing File: D:/samples/New folder/1. LETTER/11/SDC-TB2-120625.pdf
+2020-08-04 16:53:33,686-INFO: Processing Page: 0
+2020-08-04 16:53:39,926-INFO: Crop Image to Width 1654 Height 2339
+2020-08-04 16:53:44,394-WARNING: Failed to see startup log message; retrying...
+2020-08-04 17:10:08,605-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-04 17:10:11,283-INFO: Processing Page: 0
+2020-08-04 17:10:23,911-INFO: Converting to Table
+2020-08-04 17:11:38,652-INFO: Converting to Table
+2020-08-04 17:11:50,226-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-04 17:11:53,038-INFO: Processing Page: 0
+2020-08-04 17:12:04,375-INFO: Converting to Table
+2020-08-04 17:12:45,460-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-04 17:12:47,914-INFO: Processing Page: 0
+2020-08-04 17:13:01,021-INFO: Converting to Table
+2020-08-05 09:11:19,296-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-05 09:11:25,865-INFO: Processing Page: 0
+2020-08-05 09:11:50,999-INFO: Converting to Table
+2020-08-05 09:13:21,085-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-05 09:13:23,992-INFO: Processing Page: 0
+2020-08-05 09:13:33,064-WARNING: Got stderr: Aug 05, 2020 9:13:32 AM org.apache.pdfbox.pdmodel.font.PDCIDFontType2 <init>
+INFO: OpenType Layout tables used in font BCDGEE+TrebuchetMS-Bold are not implemented in PDFBox and will be ignored
+Aug 05, 2020 9:13:32 AM org.apache.pdfbox.pdmodel.font.PDCIDFontType2 <init>
+INFO: OpenType Layout tables used in font BCDHEE+TrebuchetMS are not implemented in PDFBox and will be ignored
+
+2020-08-05 09:13:33,070-INFO: Converting to Table
+2020-08-05 09:21:54,009-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-05 09:21:56,846-INFO: Processing Page: 0
+2020-08-05 09:22:03,826-WARNING: Got stderr: Aug 05, 2020 9:22:03 AM org.apache.pdfbox.pdmodel.font.PDCIDFontType2 <init>
+INFO: OpenType Layout tables used in font BCDGEE+TrebuchetMS-Bold are not implemented in PDFBox and will be ignored
+Aug 05, 2020 9:22:03 AM org.apache.pdfbox.pdmodel.font.PDCIDFontType2 <init>
+INFO: OpenType Layout tables used in font BCDHEE+TrebuchetMS are not implemented in PDFBox and will be ignored
+
+2020-08-05 09:22:03,828-INFO: Converting to Table
+2020-08-05 09:22:21,288-WARNING: Got stderr: Aug 05, 2020 9:22:20 AM org.apache.pdfbox.pdmodel.font.PDCIDFontType2 <init>
+INFO: OpenType Layout tables used in font BCDGEE+TrebuchetMS-Bold are not implemented in PDFBox and will be ignored
+Aug 05, 2020 9:22:20 AM org.apache.pdfbox.pdmodel.font.PDCIDFontType2 <init>
+INFO: OpenType Layout tables used in font BCDHEE+TrebuchetMS are not implemented in PDFBox and will be ignored
+
+2020-08-05 09:22:21,295-INFO: Converting to Table
+2020-08-05 09:22:38,916-INFO: Processing Page: 2
+2020-08-05 09:22:46,750-INFO: Converting to Table
+2020-08-05 09:27:46,290-INFO: Processing File: D:/Schedule_samples/18.04.06.AECC Hilton - Progress @ 18.04.06 - Rescheduled Jagged Dropline.pdf
+2020-08-05 09:29:12,635-INFO: Processing Page: 0
+2020-08-05 09:34:19,930-INFO: Converting to Table
+2020-08-05 09:35:01,758-INFO: Converting to Table
+2020-08-05 09:35:47,215-INFO: Processing File: D:/Schedule_samples/2014.07 - Program of Works (rev. 3).pdf
+2020-08-05 09:36:01,653-INFO: Processing Page: 1
+2020-08-05 09:36:11,702-INFO: Converting to Table
+2020-08-05 09:36:38,221-INFO: Converting to Table
+2020-08-05 09:36:58,764-INFO: Converting to Table
+2020-08-11 08:39:57,194-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 08:40:28,561-INFO: Processing Page: 0
+2020-08-11 08:40:36,514-WARNING: Got stderr: Aug 11, 2020 8:40:36 AM org.apache.pdfbox.pdmodel.font.PDCIDFontType2 <init>
+INFO: OpenType Layout tables used in font BCDGEE+TrebuchetMS-Bold are not implemented in PDFBox and will be ignored
+Aug 11, 2020 8:40:36 AM org.apache.pdfbox.pdmodel.font.PDCIDFontType2 <init>
+INFO: OpenType Layout tables used in font BCDHEE+TrebuchetMS are not implemented in PDFBox and will be ignored
+
+2020-08-11 08:40:36,530-INFO: Converting to Table
+2020-08-11 08:47:57,945-INFO: Processing Page: 1
+2020-08-11 08:50:10,775-INFO: Processing Page: 2
+2020-08-11 08:50:30,470-INFO: Converting to Table
+2020-08-11 08:54:23,941-INFO: Converting to Table
+2020-08-11 08:54:40,137-INFO: Processing Page: 4
+2020-08-11 08:54:49,098-INFO: Converting to Table
+2020-08-11 09:36:20,335-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 09:36:24,031-INFO: Processing Page: 0
+2020-08-11 09:36:36,773-INFO: Processing Page: 1
+2020-08-11 10:27:52,883-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 10:27:56,220-INFO: Processing Page: 1
+2020-08-11 10:31:34,227-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 10:31:37,693-INFO: Processing Page: 1
+2020-08-11 10:32:07,477-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 10:32:10,791-INFO: Processing Page: 1
+2020-08-11 10:32:31,180-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 10:32:34,358-INFO: Processing Page: 1
+2020-08-11 10:33:24,789-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 10:33:27,607-INFO: Processing Page: 1
+2020-08-11 10:33:54,804-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 10:33:58,147-INFO: Processing Page: 1
+2020-08-11 10:34:47,508-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 10:34:50,913-INFO: Processing Page: 1
+2020-08-11 10:38:58,492-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 10:39:02,937-INFO: Processing Page: 1
+2020-08-11 10:39:04,269-INFO: Draw Auxiliary Lines
+2020-08-11 11:42:04,743-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 11:42:06,727-INFO: Processing Page: 0
+2020-08-11 11:42:12,621-INFO: Draw Auxiliary Lines
+2020-08-11 12:15:50,777-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 12:15:54,809-INFO: Processing Page: 1
+2020-08-11 12:15:57,076-INFO: Draw Auxiliary Lines
+2020-08-11 14:18:09,398-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 14:18:11,531-INFO: Processing Page: 0
+2020-08-11 14:19:27,133-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 14:19:30,724-INFO: Processing Page: 0
+2020-08-11 14:55:41,508-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 14:55:45,917-INFO: Processing Page: 1
+2020-08-11 14:55:47,658-INFO: Draw Auxiliary Lines
+2020-08-11 15:18:26,165-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 15:18:29,073-INFO: Processing Page: 1
+2020-08-11 15:18:30,117-INFO: Draw Auxiliary Lines
+2020-08-11 15:28:29,133-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 15:28:31,029-INFO: Processing Page: 0
+2020-08-11 15:28:35,035-INFO: Draw Auxiliary Lines
+2020-08-11 15:34:00,117-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 15:34:02,722-INFO: Processing Page: 0
+2020-08-11 15:34:07,746-INFO: Draw Auxiliary Lines
+2020-08-11 15:34:46,539-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 15:34:48,542-INFO: Processing Page: 0
+2020-08-11 15:34:49,981-INFO: Draw Auxiliary Lines
+2020-08-11 15:35:02,998-INFO: Processing Page: 1
+2020-08-11 15:35:05,953-INFO: Draw Auxiliary Lines
+2020-08-11 16:52:57,934-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-11 16:52:59,545-INFO: Processing Page: 0
+2020-08-11 16:53:04,650-INFO: Processing Page: 1
+2020-08-11 16:53:06,453-INFO: Draw Auxiliary Lines
+2020-08-12 09:28:55,072-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 09:29:09,068-INFO: Processing Page: 2
+2020-08-12 09:29:29,053-INFO: Processing File: D:/Schedule_samples/M1 Extract - June 2013.pdf
+2020-08-12 09:29:36,665-INFO: Processing Page: 0
+2020-08-12 09:35:22,497-INFO: Converting to Table
+2020-08-12 09:35:47,625-INFO: Converting to Table
+2020-08-12 09:43:30,920-INFO: Processing Page: 0
+2020-08-12 09:43:38,584-INFO: Converting to Table
+2020-08-12 09:44:04,002-INFO: Converting to Table
+2020-08-12 09:44:15,728-INFO: Converting to Table
+2020-08-12 09:44:33,675-INFO: Processing File: D:/Schedule_samples/Pages 2 from 2014.07 - Program of Works (rev. 3).pdf
+2020-08-12 09:44:37,831-INFO: Processing Page: 0
+2020-08-12 09:44:48,584-INFO: Converting to Table
+2020-08-12 09:58:16,016-INFO: Processing File: D:/Schedule_samples/Pages from M-JGC-16_R0.pdf
+2020-08-12 09:58:22,198-INFO: Processing Page: 0
+2020-08-12 09:58:34,391-INFO: Converting to Table
+2020-08-12 15:52:24,387-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 15:52:27,350-INFO: Processing Page: 1
+2020-08-12 15:52:30,049-INFO: Draw Auxiliary Lines
+2020-08-12 15:53:43,461-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 15:53:46,243-INFO: Processing Page: 1
+2020-08-12 15:53:47,573-INFO: Draw Auxiliary Lines
+2020-08-12 15:54:36,836-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 15:54:40,107-INFO: Processing Page: 1
+2020-08-12 15:54:42,310-INFO: Draw Auxiliary Lines
+2020-08-12 15:56:10,772-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 15:56:13,332-INFO: Processing Page: 1
+2020-08-12 15:56:14,388-INFO: Draw Auxiliary Lines
+2020-08-12 15:59:42,819-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 15:59:45,536-INFO: Processing Page: 1
+2020-08-12 15:59:46,750-INFO: Draw Auxiliary Lines
+2020-08-12 16:26:36,726-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 16:26:39,336-INFO: Processing Page: 1
+2020-08-12 16:26:40,239-INFO: Draw Auxiliary Lines
+2020-08-12 16:27:08,819-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 16:27:12,160-INFO: Processing Page: 1
+2020-08-12 16:27:13,440-INFO: Draw Auxiliary Lines
+2020-08-12 16:27:51,991-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 16:27:56,428-INFO: Processing Page: 1
+2020-08-12 16:27:57,802-INFO: Draw Auxiliary Lines
+2020-08-12 16:28:26,773-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 16:28:29,449-INFO: Processing Page: 1
+2020-08-12 16:28:30,409-INFO: Draw Auxiliary Lines
+2020-08-12 16:33:40,241-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 16:33:42,962-INFO: Processing Page: 1
+2020-08-12 16:33:43,933-INFO: Draw Auxiliary Lines
+2020-08-12 16:37:28,241-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 16:37:31,571-INFO: Processing Page: 1
+2020-08-12 16:37:32,533-INFO: Draw Auxiliary Lines
+2020-08-12 16:38:57,132-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 16:39:00,321-INFO: Processing Page: 1
+2020-08-12 16:39:01,468-INFO: Draw Auxiliary Lines
+2020-08-12 16:55:41,867-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 16:55:44,749-INFO: Processing Page: 1
+2020-08-12 16:55:45,764-INFO: Draw Auxiliary Lines
+2020-08-12 16:56:01,647-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 16:56:04,153-INFO: Processing Page: 1
+2020-08-12 16:56:05,250-INFO: Draw Auxiliary Lines
+2020-08-12 16:57:10,419-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 16:57:14,210-INFO: Processing Page: 1
+2020-08-12 16:57:15,580-INFO: Draw Auxiliary Lines
+2020-08-12 16:58:23,506-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-12 16:58:26,092-INFO: Processing Page: 1
+2020-08-12 16:58:27,427-INFO: Draw Auxiliary Lines
+2020-08-13 08:42:05,268-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 08:42:09,669-INFO: Processing Page: 1
+2020-08-13 08:42:11,845-INFO: Draw Auxiliary Lines
+2020-08-13 08:43:07,881-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 08:43:11,768-INFO: Processing Page: 1
+2020-08-13 08:43:13,435-INFO: Draw Auxiliary Lines
+2020-08-13 09:23:34,883-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 09:23:38,709-INFO: Processing Page: 1
+2020-08-13 09:23:40,015-INFO: Draw Auxiliary Lines
+2020-08-13 11:32:01,054-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 11:32:03,948-INFO: Processing Page: 1
+2020-08-13 11:32:07,561-INFO: Draw Auxiliary Lines
+2020-08-13 11:54:00,068-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 11:54:02,607-INFO: Processing Page: 1
+2020-08-13 11:54:04,386-INFO: Draw Auxiliary Lines
+2020-08-13 11:55:08,726-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 11:55:11,731-INFO: Processing Page: 1
+2020-08-13 11:55:13,060-INFO: Draw Auxiliary Lines
+2020-08-13 11:55:58,913-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 11:56:02,307-INFO: Processing Page: 1
+2020-08-13 11:56:03,281-INFO: Draw Auxiliary Lines
+2020-08-13 11:57:14,261-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 11:57:16,795-INFO: Processing Page: 1
+2020-08-13 11:57:18,455-INFO: Draw Auxiliary Lines
+2020-08-13 11:58:09,148-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 11:58:11,996-INFO: Processing Page: 1
+2020-08-13 11:58:12,780-INFO: Draw Auxiliary Lines
+2020-08-13 12:00:12,320-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 12:00:15,057-INFO: Processing Page: 1
+2020-08-13 12:00:16,098-INFO: Draw Auxiliary Lines
+2020-08-13 12:05:02,367-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 12:05:04,928-INFO: Processing Page: 1
+2020-08-13 12:05:05,723-INFO: Draw Auxiliary Lines
+2020-08-13 15:16:21,740-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 15:16:29,280-INFO: Processing Page: 1
+2020-08-13 15:16:36,116-INFO: Converting to Table
+2020-08-13 15:16:40,910-INFO: Draw Auxiliary Lines
+2020-08-13 15:17:22,647-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 15:17:28,710-INFO: Processing Page: 1
+2020-08-13 15:17:30,005-INFO: Draw Auxiliary Lines
+2020-08-13 15:17:57,820-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 15:18:01,530-INFO: Processing Page: 1
+2020-08-13 15:18:02,474-INFO: Draw Auxiliary Lines
+2020-08-13 15:21:26,023-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 15:21:28,716-INFO: Processing Page: 1
+2020-08-13 15:21:29,795-INFO: Draw Auxiliary Lines
+2020-08-13 15:22:58,977-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 15:23:01,480-INFO: Processing Page: 1
+2020-08-13 15:23:02,530-INFO: Draw Auxiliary Lines
+2020-08-13 15:28:27,007-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 15:28:30,040-INFO: Processing Page: 1
+2020-08-13 15:28:30,869-INFO: Draw Auxiliary Lines
+2020-08-13 15:29:06,039-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 15:29:09,096-INFO: Processing Page: 1
+2020-08-13 15:29:10,044-INFO: Draw Auxiliary Lines
+2020-08-13 15:30:13,600-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-13 15:30:16,501-INFO: Processing Page: 1
+2020-08-13 15:30:17,568-INFO: Draw Auxiliary Lines
+2020-08-17 09:37:34,798-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 09:37:37,679-INFO: Processing Page: 1
+2020-08-17 09:37:39,841-INFO: Draw Auxiliary Lines
+2020-08-17 09:41:00,693-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 09:42:34,505-INFO: Processing Page: 2
+2020-08-17 09:42:36,226-INFO: Draw Auxiliary Lines
+2020-08-17 10:11:00,554-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 10:11:03,151-INFO: Processing Page: 1
+2020-08-17 10:11:04,559-INFO: Draw Auxiliary Lines
+2020-08-17 10:30:16,711-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 10:30:19,325-INFO: Processing Page: 1
+2020-08-17 10:30:20,820-INFO: Draw Auxiliary Lines
+2020-08-17 10:36:18,084-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 10:36:25,018-INFO: Processing Page: 1
+2020-08-17 10:36:26,053-INFO: Draw Auxiliary Lines
+2020-08-17 12:17:16,870-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 12:17:20,716-INFO: Processing Page: 1
+2020-08-17 12:17:22,256-INFO: Draw Auxiliary Lines
+2020-08-17 12:27:53,538-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 12:29:57,944-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 12:30:00,652-INFO: Processing Page: 1
+2020-08-17 12:30:01,999-INFO: Draw Auxiliary Lines
+2020-08-17 12:31:10,742-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 12:31:13,081-INFO: Processing Page: 1
+2020-08-17 12:31:14,058-INFO: Draw Auxiliary Lines
+2020-08-17 14:11:10,164-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 14:11:13,652-INFO: Processing Page: 1
+2020-08-17 14:11:15,831-INFO: Draw Auxiliary Lines
+2020-08-17 14:48:53,648-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 14:48:55,967-INFO: Processing Page: 0
+2020-08-17 14:49:12,183-INFO: Draw Auxiliary Lines
+2020-08-17 14:51:06,084-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 14:52:10,866-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 14:52:14,163-INFO: Processing Page: 1
+2020-08-17 14:52:15,387-INFO: Draw Auxiliary Lines
+2020-08-17 14:53:08,648-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 14:53:11,621-INFO: Processing Page: 1
+2020-08-17 14:53:12,534-INFO: Draw Auxiliary Lines
+2020-08-17 14:54:03,787-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 14:54:06,235-INFO: Processing Page: 1
+2020-08-17 14:54:07,296-INFO: Draw Auxiliary Lines
+2020-08-17 15:10:05,398-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 15:10:08,189-INFO: Processing Page: 1
+2020-08-17 15:10:08,969-INFO: Draw Auxiliary Lines
+2020-08-17 16:15:46,776-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 16:16:09,885-INFO: Processing Page: 1
+2020-08-17 16:16:12,895-INFO: Draw Auxiliary Lines
+2020-08-17 16:18:01,397-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 16:18:04,536-INFO: Processing Page: 1
+2020-08-17 16:18:05,604-INFO: Draw Auxiliary Lines
+2020-08-17 16:18:09,512-INFO: Draw Auxiliary Lines
+2020-08-17 16:18:21,711-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 16:18:27,339-INFO: Processing Page: 2
+2020-08-17 16:18:29,151-INFO: Draw Auxiliary Lines
+2020-08-17 16:18:36,351-INFO: Draw Auxiliary Lines
+2020-08-17 16:19:57,351-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 16:20:02,668-INFO: Processing Page: 2
+2020-08-17 16:20:05,194-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:20:06,933-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-17 16:21:07,102-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 16:21:12,025-INFO: Processing Page: 2
+2020-08-17 16:21:13,154-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:21:14,920-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-17 16:22:46,570-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 16:22:51,183-INFO: Processing Page: 2
+2020-08-17 16:22:52,762-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:22:55,341-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:22:56,514-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-17 16:22:58,794-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-17 16:22:59,465-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:23:00,778-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-17 16:23:02,409-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:23:04,323-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-17 16:23:53,386-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-17 16:24:02,170-INFO: Processing Page: 2
+2020-08-17 16:24:03,552-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:24:05,545-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-17 16:27:54,936-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-17 16:27:59,836-INFO: Processing Page: 0
+2020-08-17 16:28:02,426-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:28:10,546-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:28:12,073-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-17 16:29:49,479-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-17 16:29:53,236-INFO: Processing Page: 0
+2020-08-17 16:29:56,312-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:29:59,217-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-17 16:30:05,723-INFO: Processing Page: 1
+2020-08-17 16:30:10,255-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:30:21,762-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:30:23,006-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-17 16:30:23,741-INFO: Draw Auxiliary Lines By Density
+2020-08-17 16:30:29,165-INFO: Processing Page: 4
+2020-08-18 10:44:07,136-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 10:44:12,387-INFO: Processing Page: 1
+2020-08-18 10:44:13,650-INFO: Draw Auxiliary Lines By Density
+2020-08-18 10:44:16,055-INFO: Draw Auxiliary Lines By Density
+2020-08-18 10:44:17,386-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 10:44:19,942-INFO: Draw Auxiliary Lines By Density
+2020-08-18 10:44:21,363-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 10:44:50,403-INFO: Undo
+2020-08-18 10:45:36,709-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 10:45:42,434-INFO: Processing Page: 1
+2020-08-18 10:45:44,002-INFO: Draw Auxiliary Lines By Density
+2020-08-18 10:45:45,668-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 10:46:40,329-WARNING: Got stderr: Aug 18, 2020 10:46:40 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'ArialMT' for 'ArialUnicodeMS'
+
+2020-08-18 10:46:40,329-WARNING: The output file is empty.
+2020-08-18 10:46:56,268-INFO: Converting to Table
+2020-08-18 10:52:11,537-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 10:52:15,928-INFO: Processing Page: 1
+2020-08-18 10:52:24,770-INFO: Draw Auxiliary Lines By Density
+2020-08-18 10:52:32,779-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 11:05:05,224-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 11:05:09,851-INFO: Processing Page: 1
+2020-08-18 11:05:11,409-INFO: Draw Auxiliary Lines By Density
+2020-08-18 11:06:04,458-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 11:06:08,333-INFO: Processing Page: 0
+2020-08-18 11:06:09,472-INFO: Draw Auxiliary Lines By Density
+2020-08-18 11:06:49,146-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 11:06:54,553-INFO: Processing Page: 1
+2020-08-18 11:06:56,283-INFO: Draw Auxiliary Lines By Density
+2020-08-18 11:29:34,303-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 11:29:38,652-INFO: Processing Page: 1
+2020-08-18 11:29:39,903-INFO: Draw Auxiliary Lines By Density
+2020-08-18 11:29:43,929-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 11:42:19,803-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 11:42:24,461-INFO: Processing Page: 1
+2020-08-18 11:42:26,693-INFO: Draw Auxiliary Lines By Density
+2020-08-18 11:49:50,943-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 11:49:54,905-INFO: Processing Page: 1
+2020-08-18 11:49:56,653-INFO: Draw Auxiliary Lines By Density
+2020-08-18 11:49:58,761-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 11:53:56,798-INFO: Undo
+2020-08-18 11:53:58,427-INFO: Draw Auxiliary Lines By Density
+2020-08-18 11:53:59,853-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 14:34:06,353-INFO: Draw Auxiliary Lines By Density
+2020-08-18 14:34:09,695-INFO: Draw Auxiliary Lines By Density
+2020-08-18 14:34:11,454-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 14:34:13,872-INFO: Draw Auxiliary Lines By Density
+2020-08-18 14:34:15,313-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 14:59:03,959-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 14:59:08,268-INFO: Processing Page: 1
+2020-08-18 14:59:09,619-INFO: Draw Auxiliary Lines By Density
+2020-08-18 14:59:12,594-INFO: Draw Auxiliary Lines By Density
+2020-08-18 14:59:14,054-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 14:59:20,579-INFO: Undo
+2020-08-18 14:59:27,348-INFO: Undo
+2020-08-18 14:59:30,487-INFO: Draw Auxiliary Lines By Density
+2020-08-18 14:59:33,143-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 14:59:34,645-INFO: Draw Auxiliary Lines By Density
+2020-08-18 14:59:36,735-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 15:02:43,319-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 15:02:47,237-INFO: Processing Page: 0
+2020-08-18 15:02:48,839-INFO: Draw Auxiliary Lines By Density
+2020-08-18 15:02:50,146-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 15:02:53,940-INFO: Checking Image Mask
+2020-08-18 15:02:56,232-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 15:03:35,910-INFO: Checking Image Mask
+2020-08-18 15:03:38,164-INFO: Checking Image Mask
+2020-08-18 15:03:38,884-INFO: Checking Image Mask
+2020-08-18 15:03:39,473-INFO: Checking Image Mask
+2020-08-18 15:03:40,115-INFO: Checking Image Mask
+2020-08-18 15:03:42,775-INFO: Undo
+2020-08-18 15:03:43,277-INFO: Undo
+2020-08-18 15:03:43,533-INFO: Undo
+2020-08-18 15:03:43,779-INFO: Undo
+2020-08-18 15:03:44,003-INFO: Undo
+2020-08-18 15:03:44,293-INFO: Undo
+2020-08-18 15:19:04,721-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-18 15:19:07,463-INFO: Processing Page: 1
+2020-08-18 15:19:08,485-INFO: Draw Auxiliary Lines By Density
+2020-08-18 15:19:10,299-INFO: Draw Auxiliary Lines By Density
+2020-08-18 15:19:12,313-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 15:19:14,962-INFO: Draw Auxiliary Lines By Density
+2020-08-18 15:19:16,398-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 15:19:17,240-INFO: Checking Image Mask
+2020-08-18 15:19:18,556-INFO: Draw Auxiliary Lines By Density
+2020-08-18 15:20:07,053-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 15:20:11,399-INFO: Processing Page: 1
+2020-08-18 15:20:13,016-INFO: Draw Auxiliary Lines By Density
+2020-08-18 15:20:15,322-INFO: Draw Auxiliary Lines By Density
+2020-08-18 15:20:16,786-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 15:20:18,471-INFO: Draw Auxiliary Lines By Density
+2020-08-18 15:20:19,580-INFO: Checking Image Mask
+2020-08-18 15:20:20,870-INFO: Draw Auxiliary Lines By Density
+2020-08-18 15:20:23,550-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-18 15:20:24,637-INFO: Draw Auxiliary Lines By Density
+2020-08-18 15:20:33,324-INFO: Undo
+2020-08-18 17:15:40,335-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-18 17:15:44,446-INFO: Processing Page: 0
+2020-08-18 17:15:46,108-INFO: Draw Auxiliary Lines By Density
+2020-08-18 17:15:55,777-INFO: Draw Auxiliary Lines By Density
+2020-08-18 17:15:58,685-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-19 09:23:22,282-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-19 09:23:26,215-INFO: Processing Page: 1
+2020-08-19 09:23:27,428-INFO: Draw Auxiliary Lines By Density
+2020-08-19 09:23:29,363-INFO: Checking Image Mask
+2020-08-19 09:23:32,937-INFO: Undo
+2020-08-19 09:23:37,871-INFO: Auto Table Lines Removal
+2020-08-19 09:23:41,533-INFO: Draw Auxiliary Lines By Density
+2020-08-19 09:33:15,076-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-19 09:33:19,033-INFO: Processing Page: 0
+2020-08-19 09:33:20,753-INFO: Draw Auxiliary Lines By Density
+2020-08-19 09:33:22,855-INFO: Checking Image Mask
+2020-08-19 09:33:23,868-INFO: Undo
+2020-08-19 09:33:26,150-INFO: Checking Image Mask
+2020-08-19 09:33:27,004-INFO: Undo
+2020-08-19 09:33:28,912-INFO: Undo
+2020-08-19 09:33:31,552-INFO: Draw Auxiliary Lines By Density
+2020-08-19 09:33:49,643-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-19 09:37:39,835-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-19 09:37:43,841-INFO: Processing Page: 0
+2020-08-19 09:37:45,341-INFO: Draw Auxiliary Lines By Density
+2020-08-19 09:37:47,395-INFO: Checking Image Mask
+2020-08-19 09:37:49,809-INFO: Draw Auxiliary Lines By Density
+2020-08-19 09:37:51,751-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-19 09:38:13,000-INFO: Undo
+2020-08-19 09:38:14,424-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-19 09:41:27,959-INFO: Undo
+2020-08-19 09:41:41,587-WARNING: Got stderr: Aug 19, 2020 9:41:41 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'ArialMT' for 'ArialUnicodeMS'
+
+2020-08-19 09:41:41,587-WARNING: The output file is empty.
+2020-08-19 09:42:00,115-INFO: Converting to Table
+2020-08-19 09:42:23,768-INFO: Crop Image to Width 1654 Height 2340
+2020-08-19 09:42:26,796-WARNING: Got stderr: Aug 19, 2020 9:42:26 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'ArialMT' for 'ArialUnicodeMS'
+
+2020-08-19 09:42:26,796-WARNING: The output file is empty.
+2020-08-19 09:42:32,716-INFO: Converting to Table
+2020-08-19 09:46:45,235-INFO: Undo
+2020-08-19 09:46:54,650-INFO: Crop Image to Width 1654 Height 2340
+2020-08-19 09:46:56,170-WARNING: Got stderr: Aug 19, 2020 9:46:55 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'ArialMT' for 'ArialUnicodeMS'
+
+2020-08-19 09:46:56,170-WARNING: The output file is empty.
+2020-08-19 09:46:59,379-INFO: Converting to Table
+2020-08-19 09:47:20,172-INFO: Undo
+2020-08-19 09:47:26,485-INFO: Crop Image to Width 1654 Height 2340
+2020-08-19 09:47:28,824-WARNING: Got stderr: Aug 19, 2020 9:47:28 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'ArialMT' for 'ArialUnicodeMS'
+
+2020-08-19 09:47:28,824-WARNING: The output file is empty.
+2020-08-19 09:47:30,852-INFO: Converting to Table
+2020-08-19 09:47:47,393-INFO: Undo
+2020-08-19 09:47:54,957-INFO: Processing Page: 1
+2020-08-19 09:48:01,717-INFO: Crop Image to Width 1654 Height 2340
+2020-08-19 09:48:03,830-WARNING: Got stderr: Aug 19, 2020 9:48:03 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'ArialMT' for 'ArialUnicodeMS'
+
+2020-08-19 09:48:03,830-WARNING: The output file is empty.
+2020-08-19 09:48:09,199-INFO: Converting to Table
+2020-08-19 15:24:25,505-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-20 10:24:39,160-INFO: Processing Page: 0
+2020-08-20 10:31:36,863-INFO: Auto Straighten Image
+2020-08-20 10:31:39,814-INFO: Undo
+2020-08-20 16:21:18,823-INFO: Processing File: D:/samples/New folder/1. LETTER/21/TB2-SDC-PEB-L-0006.pdf
+2020-08-20 16:21:23,970-INFO: Processing Page: 1
+2020-08-20 16:21:27,824-INFO: Processing Page: 0
+2020-08-20 16:23:29,050-INFO: Crop Image to Width 1654 Height 2339
+2020-08-20 16:37:56,336-WARNING: Failed to see startup log message; retrying...
+2020-08-24 09:05:35,811-INFO: Processing File: D:/samples/New folder/1. LETTER/21/TB2-SDC-PEB-L-0006.pdf
+2020-08-24 09:05:48,419-INFO: Processing Page: 0
+2020-08-24 09:06:08,415-INFO: Crop Image to Width 1654 Height 2339
+2020-08-24 09:06:12,206-WARNING: Failed to see startup log message; retrying...
+2020-08-24 09:41:40,169-INFO: Undo
+2020-08-24 09:49:30,139-INFO: Processing File: D:/Pages from 3_Unit_2000_Regas_B.445.pdf
+2020-08-24 09:49:37,704-INFO: Processing Page: 0
+2020-08-24 09:49:47,997-INFO: Crop Image to Width 1654 Height 2340
+2020-08-24 09:58:03,795-INFO: Processing File: D:/samples/Pages from WE 22-5-16 (DF).pdf
+2020-08-24 09:58:16,896-INFO: Processing Page: 0
+2020-08-24 09:58:31,295-INFO: Crop Image to Width 9559 Height 6734
+2020-08-24 11:12:15,069-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-24 11:12:18,887-INFO: Processing Page: 1
+2020-08-24 11:12:27,223-INFO: Processing Page: 1
+2020-08-24 11:12:37,231-WARNING: The output file is empty.
+2020-08-24 11:12:38,673-INFO: Converting to Table
+2020-08-24 11:12:50,017-INFO: Processing Page: 2
+2020-08-24 11:12:52,980-WARNING: The output file is empty.
+2020-08-24 11:13:05,213-INFO: Converting to Table
+2020-08-24 11:13:16,140-INFO: Processing Page: 1
+2020-08-24 11:13:20,691-INFO: Converting to Table
+2020-08-24 11:36:11,139-INFO: Converting to Table
+2020-08-25 17:01:36,592-INFO: Processing File: D:/samples/Pages from WE 22-5-16 (DF).pdf
+2020-08-25 17:01:53,922-INFO: Processing Page: 0
+2020-08-25 17:02:54,555-INFO: Processing File: D:/samples/New folder/1. LETTER/11/SDC-TB2-120625.pdf
+2020-08-25 17:03:02,051-INFO: Processing Page: 1
+2020-08-25 17:05:02,941-INFO: Processing Page: 0
+2020-08-26 09:40:10,749-INFO: Processing File: D:/samples/WE 15-5-16 (DF).pdf
+2020-08-26 09:47:58,336-INFO: Processing Page: 0
+2020-08-26 09:48:21,993-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-08-26 09:48:23,382-INFO: Rorate image Counter Clockwise Angle -0.015 degree
+2020-08-26 09:48:24,885-INFO: Rorate image Clockwise Angle -0.015 degree
+2020-08-26 09:48:40,541-INFO: Undo
+2020-08-26 09:48:42,115-INFO: Undo
+2020-08-26 09:48:47,455-INFO: Auto Straighten Image
+2020-08-26 09:48:52,343-INFO: Undo
+2020-08-26 09:49:04,345-INFO: Auto Straighten Image
+2020-08-26 12:27:14,930-INFO: Processing File: D:/samples/WE 15-5-16 (DF).pdf
+2020-08-26 12:27:37,532-INFO: Processing Page: 0
+2020-08-26 12:27:56,873-INFO: Processing Page: 2
+2020-08-26 12:33:25,873-INFO: Processing File: D:/RER-14 Expert’s Report on Time Related Issues of Jeffrey Alan Blinkhorn..pdf
+2020-08-26 12:34:57,584-INFO: Processing Page: 1
+2020-08-26 12:35:12,287-INFO: Crop Image to Width 1654 Height 2339
+2020-08-26 12:35:16,164-WARNING: Failed to see startup log message; retrying...
+2020-08-26 12:35:54,200-INFO: Processing File: D:/samples/1B-Vol No.1 57.pdf
+2020-08-26 12:36:01,485-INFO: Processing Page: 0
+2020-08-26 12:36:08,019-INFO: Crop Image to Width 4876 Height 3446
+2020-08-26 12:39:34,622-INFO: Draw Auxiliary Lines By Density
+2020-08-26 12:39:36,991-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-26 12:39:45,255-INFO: Checking Image Mask
+2020-08-26 14:23:29,179-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 14:23:31,921-INFO: Processing Page: 1
+2020-08-26 14:23:32,866-INFO: Draw Auxiliary Lines By Density
+2020-08-26 14:24:22,807-INFO: Draw Auxiliary Lines By Density
+2020-08-26 14:24:24,300-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-26 14:24:33,983-INFO: Checking Image Mask
+2020-08-26 14:24:37,617-INFO: Undo
+2020-08-26 15:08:30,491-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 15:08:33,035-INFO: Processing Page: 1
+2020-08-26 15:08:33,873-INFO: Draw Auxiliary Lines By Density
+2020-08-26 15:09:06,226-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 15:09:08,539-INFO: Processing Page: 1
+2020-08-26 15:09:09,966-INFO: Draw Auxiliary Lines By Density
+2020-08-26 15:10:46,553-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 15:10:49,557-INFO: Processing Page: 1
+2020-08-26 15:10:51,148-INFO: Draw Auxiliary Lines By Density
+2020-08-26 15:11:54,913-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 15:11:57,719-INFO: Processing Page: 1
+2020-08-26 15:11:58,382-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:27:35,242-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 16:27:37,100-INFO: Processing Page: 0
+2020-08-26 16:27:38,393-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:27:47,127-INFO: Undo
+2020-08-26 16:27:49,454-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:28:11,163-INFO: Processing Page: 0
+2020-08-26 16:28:13,221-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:28:44,460-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 16:28:46,617-INFO: Processing Page: 0
+2020-08-26 16:28:48,511-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:29:00,600-INFO: Processing Page: 1
+2020-08-26 16:29:05,238-INFO: Processing Page: 2
+2020-08-26 16:29:07,709-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:30:27,852-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 16:30:29,943-INFO: Processing Page: 0
+2020-08-26 16:30:31,486-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:31:59,757-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 16:32:02,854-INFO: Processing Page: 0
+2020-08-26 16:32:04,055-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:32:58,954-INFO: Processing Page: 1
+2020-08-26 16:33:00,957-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:33:09,592-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:33:13,129-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-26 16:33:21,559-INFO: Processing Page: 1
+2020-08-26 16:33:23,419-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:33:26,330-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:37:09,180-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 16:37:13,119-INFO: Processing Page: 0
+2020-08-26 16:37:14,566-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:37:19,424-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:37:52,444-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 16:37:55,180-INFO: Processing Page: 0
+2020-08-26 16:37:55,947-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:39:01,569-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 16:39:04,125-INFO: Processing Page: 0
+2020-08-26 16:39:05,971-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:39:29,840-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-26 16:40:43,273-INFO: Processing File: D:/GE-S14006-ER00-LIST.MODULE-REV02-CTLD.pdf
+2020-08-26 16:40:47,070-INFO: Processing Page: 2
+2020-08-26 16:40:48,125-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:40:53,961-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-26 16:42:10,425-INFO: Processing Page: 2
+2020-08-26 16:42:11,779-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:42:30,885-INFO: Draw Auxiliary Lines By Density
+2020-08-26 16:42:33,144-INFO: Processing Page: 3
+2020-08-26 16:42:35,778-INFO: Draw Auxiliary Lines By Density
+2020-08-27 08:43:28,258-INFO: Processing File: C:/Users/haonan.liu/Downloads/_01_ Exhibit I_Schedule_B_W_ (1).pdf
+2020-08-27 08:44:15,435-INFO: Processing Page: 2
+2020-08-27 08:44:34,782-INFO: Crop Image to Width 1654 Height 2340
+2020-08-27 08:44:38,633-WARNING: The output file is empty.
+2020-08-27 08:44:42,587-INFO: Converting to Table
+2020-08-27 08:44:56,306-INFO: Crop Image to Width 583 Height 257
+2020-08-27 08:45:02,376-WARNING: Failed to see startup log message; retrying...
+2020-08-27 08:45:29,245-INFO: Undo
+2020-08-27 08:45:30,304-INFO: Undo
+2020-08-27 08:45:41,238-INFO: Crop Image to Width 1654 Height 2340
+2020-08-27 08:45:45,411-WARNING: The output file is empty.
+2020-08-27 08:48:03,727-INFO: Draw Auxiliary Lines By Density
+2020-08-27 08:48:15,109-INFO: Checking Image Mask
+2020-08-27 08:48:21,169-INFO: Undo
+2020-08-27 08:48:41,356-INFO: Processing File: C:/Users/haonan.liu/Downloads/_01_ Exhibit I_Schedule_B_W_ (1).pdf
+2020-08-27 08:49:09,221-INFO: Processing Page: 2
+2020-08-27 08:49:36,118-INFO: Crop Image to Width 1654 Height 2340
+2020-08-27 08:49:44,139-INFO: Draw Auxiliary Lines By Density
+2020-08-27 08:49:47,038-INFO: Undo
+2020-08-27 08:49:57,648-INFO: Draw Auxiliary Lines By Density
+2020-08-27 08:50:01,568-INFO: Draw Auxiliary Lines By Density
+2020-08-27 08:50:03,688-INFO: Draw Auxiliary Lines By Hough Lines
+2020-08-27 08:50:05,528-INFO: Draw Auxiliary Lines By Density
+2020-08-27 08:50:09,178-INFO: Undo
+2020-08-27 08:50:09,828-INFO: Undo
+2020-08-27 08:50:36,191-INFO: Processing Page: 2
+2020-08-27 08:51:18,918-INFO: Crop Image to Width 1654 Height 2340
+2020-10-28 10:15:03,432-INFO: Processing File: D:/samples/GaussianBlur.pdf
+2020-10-28 10:15:15,300-INFO: Processing Page: 0
