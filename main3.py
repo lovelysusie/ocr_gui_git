@@ -16,13 +16,13 @@ import ocr_pkg.image_segmentation as img_seg
 from gui_pkg.table_crop import get_PerspectiveTransform, getRowColumnLine
 import gui_pkg.table_crop as table_crop
 import numpy as np
-from ocr_pkg.table_detect import detectTable
+#from ocr_pkg.table_detect import detectTable
 from tkinter import messagebox
 import gui_pkg.exports as exp
 #import exports as exp
-from tkinter import ttk
+#from tkinter import ttk
 import pytesseract
-import time
+#import time
 from pandastable import Table
 from gui_pkg.defaults import _C as cfg
 from gui_pkg.img2table import img2df
@@ -32,6 +32,7 @@ from gui_pkg.table_crop import  getHoughLine
 #import tktable
 #
 #tktable.sample_test()
+###environment set up
 cur_dir = os.getcwd()
 #fonts = font.Font(family = "San Francisco")
 os.environ['PATH'] = os.environ['PATH'] + ';' + cur_dir +'\\poppler\\bin'
@@ -46,9 +47,24 @@ root = tk.Tk()
 root.title(cfg.MAIN_TITLE)
 rect = 10
 ocr_indicator = ""
-btn_x = np.array(range(14)) *0.045 +0.14
+btn_x = np.array(range(14)) *0.045 +0.14 #the x coordinate of the buttons
 
 def get_filedialog(page_no_in = 0):
+    """
+    this function is called by the "browser" button
+    it help to display the pdf pages
+    
+    Parameters
+    ----------
+    page_no_in : integer, optional
+        the page number for page displaying. The default is 0.
+
+    Returns
+    -------
+    filename : string
+        the name of the file displayed
+        to be shown on the header as well.
+    """
     global filename
     global page_num_total
     global page_no
@@ -63,7 +79,7 @@ def get_filedialog(page_no_in = 0):
         logging.info("Processing File: {}".format(filename.name))
         pdf_obj = display_pdf(filename.name)
         page_num_total = pdf_obj.count_pdf_pages()
-        root.title(filename.name)
+        root.title(filename.name) #the title of the page shown on the header of the windows
         #open_image()
         page_no = 0
         # Display some document
@@ -71,16 +87,19 @@ def get_filedialog(page_no_in = 0):
         doc_viewer.place(relx=0, rely=0, relwidth=1, relheight=1)
         page_img.place_forget()
         
-        entry.delete(0, tk.END)
+        entry.delete(0, tk.END) #clear the page number from previous document
         entry.insert(0,"1")
         label_page['text'] = "/"+str(page_num_total) #it shows total num of page besides the current page num
-        initialize()
+        initialize() #this funciton is the initialization for all opening file action
         page_dict = {} 
         return filename
 
 def initialize():
     """
     This function is to initialize the the page details when flip to another page
+    img_stack is to save the image changing history
+    start_x,start_y, curX,curY is the coordinate of the drag drawing rectangle
+    they are set to be 0,1 initially
     """
     global img_stack, start_x,start_y, curX, curY
     img_stack = table_crop.Stack()
@@ -89,14 +108,34 @@ def initialize():
     
 #===================Windows GUI setting==========================
     
-def img2icon(path_in, lenght = 20):
+def img2icon(path_in, length = 20):
+    """
+    this funciton is to conver img to tkinter icons
+    
+    Parameters
+    ----------
+    path_in : string
+        the path of the icon's image
+    length : integer, optional
+        the size of the icon in the GUI windows. The default is 20.
+
+    Returns
+    -------
+    icon_img : object
+        the icons' image object.
+
+    """
     icon_img = path_in
     icon_img = Image.open(icon_img)
-    icon_img = icon_img.resize((lenght,lenght))
+    icon_img = icon_img.resize((length,length))
     icon_img = ImageTk.PhotoImage(icon_img)
     return icon_img
 
 def show_buttons():
+    """
+    this function is to show all the image editing buttons, 
+      which has been hidden initially
+    """
     btn_list = [button_plus, button_editmode, button_crop, button_return, btn_undo, #5
                button_rot, button_rot2, button_cut, button_eraser, button_line, #5
                button_wand, button_txt, button_exports, button_pdf]
@@ -109,6 +148,19 @@ def show_buttons():
     button_mask.place_forget()
     
 def hide_buttons(aux = False):
+    """
+    this function is to hide all the edit buttons
+
+    Parameters
+    ----------
+    aux : boolean, optional
+        whether is aux editing model. The default is False.
+        if true, some of button will be hidden.
+    Returns
+    -------
+    None.
+
+    """
     btn_list = [button_crop, button_return, button_rot, button_rot2,button_cut,
                button_line, button_exports, button_pdf, button_txt, button_wand, btn_undo, button_eraser]
     
@@ -125,6 +177,11 @@ def hide_buttons(aux = False):
 
 #===================pages operation==========================
 def add_one():
+    """
+    this function is to add page number 1,
+      and display next page 
+
+    """
     global page_no
     #global page_num_total
     global filename
@@ -141,6 +198,10 @@ def add_one():
     
 
 def minus_one():
+    """
+    this function is to minus the page number 1
+      and display the last page
+    """
     global page_no
     #global page_num_total
     global filename
@@ -156,6 +217,13 @@ def minus_one():
         pass
 
 def go_to_page(event):
+    """
+    this function is to skip to the specific page that user key in
+    Parameters
+    ----------
+    event : tkinter even
+        presee enter after the user key in the page number.
+    """
     global page_no
     page_no = int(entry.get()) - 1
     doc_viewer.display_file(filename.name, page_no+1)
@@ -164,6 +232,15 @@ def go_to_page(event):
         
 #=================image processing=============================
 def edit_mode():
+    """
+    in the edit mode
+     the page flip buttons will be hidden
+     page editing buttons will be unhidden
+    Returns
+    -------
+    None.
+
+    """
     global page_dict
     show_buttons()
     doc_viewer.place_forget()
