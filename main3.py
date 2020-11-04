@@ -47,7 +47,7 @@ root = tk.Tk()
 root.title(cfg.MAIN_TITLE)
 rect = 10
 ocr_indicator = ""
-btn_x = np.array(range(14)) *0.045 +0.14 #the x coordinate of the buttons
+m_v = []
 
 def get_filedialog(page_no_in = 0):
     """
@@ -101,10 +101,12 @@ def initialize():
     start_x,start_y, curX,curY is the coordinate of the drag drawing rectangle
     they are set to be 0,1 initially
     """
-    global img_stack, start_x,start_y, curX, curY
+    global img_stack, start_x,start_y, curX, curY, m_v
     img_stack = table_crop.Stack()
     hide_buttons(False)
     start_x,start_y, curX,curY = 0,0,1,1
+    m_v = []
+
     
 #===================Windows GUI setting==========================
     
@@ -138,7 +140,7 @@ def show_buttons():
     """
     btn_list = [button_plus, button_editmode, button_crop, button_return, btn_undo, #5
                button_rot, button_rot2, button_cut, button_eraser, button_line, #5
-               button_wand, button_txt, button_exports, button_pdf]
+               button_wand, button_txt, button_exports, button_pdf, button_lang]
     for coord, btn in zip(cfg.btn_x, btn_list):
         btn.place(relx=coord, relheight=1, relwidth=cfg.btn_width)
         
@@ -251,6 +253,11 @@ def edit_mode():
     page_dict["Page"+str(page_no)] = img_cur
     
 def open_image():
+    """
+    this function is to read the read getting from pdf page and saving at the temp path
+       to read the image to numpy array
+       and call show_cur_img() to display on the windows
+    """
     #size = int(lower_frame.winfo_height()*1.2)
     global img_array
     global img_cur
@@ -263,12 +270,23 @@ def open_image():
     show_cur_img()
 
 def return_img():
+    """
+    this function is to retrive the raw image when return button pressed
+    """
     global img_cur
     img_cur = img_array.copy()
     show_cur_img()
 
 
 def crop_img():
+    """
+    this function is to 
+
+    Returns
+    -------
+    None.
+
+    """
     global img_cur
     global img_stack
     img_stack.push(img_cur.copy())
@@ -280,6 +298,11 @@ def crop_img():
     
 
 def show_cur_img():
+    """
+    this is the most common used function in this software
+    it is to display the image in the GUI lower frame convas
+    which is the img_cur variable
+    """
     global img
     global ocr_indicator
     img = ImageTk.PhotoImage(img_resize(img_cur)) #img here is the tkinter format image
@@ -289,6 +312,8 @@ def show_cur_img():
     ocr_indicator = "img_cur"
 
 def return_prev_img():
+    #this function is to extra the previous version of image from the image stack
+    #and display it
     global img
     global ocr_indicator
     global img_stack
@@ -302,15 +327,12 @@ def return_prev_img():
 def img_resize(path_or_img):
     """
     This function is to resize the img_cur to suitabble size fits in the current frame
-
+      it takes the frames' width and height into consideration
+    
     Parameters
     ----------
-    path_in : TYPE
-        DESCRIPTION.
-
-    Returns
-    -------
-    None.
+    path_or_img : string or PIL object
+        the input can be 2 kinds of types and can process both of them
 
     """
     global img_shown_width
@@ -338,6 +360,10 @@ def img_resize(path_or_img):
 
 
 def rotate_clockwise():
+    """
+    this function is to rotate the image to 1 degree clockwise
+
+    """
     global img_cur 
     global img_stack
     img_stack.push(img_cur.copy())
@@ -346,6 +372,9 @@ def rotate_clockwise():
     show_cur_img()
 
 def rotate_counterclockwise():
+    """
+    this function is to rotate the image 1 degree counterclockwise
+    """
     global img_cur
     global img_stack
     img_stack.push(img_cur.copy())
@@ -356,13 +385,22 @@ def rotate_counterclockwise():
         
 
 def draw_auxiliary_line_byDensity():
+    """
+    this function is to draw the auxiliary lines according to the table border
+
+    Returns
+    -------
+    None.
+
+    """
     global img_cur
-    global m_h
-    global m_v
+    global m_h #margin horizontal
+    global m_v #margin vertical
     global hor_lines
+    
     page_img.delete("all")
     show_cur_img()
-    m_h = getRowColumnLine(img_cur).horizontal()
+    m_h = getRowColumnLine(img_cur).horizontal() #to get the lines via density
     m_v = getRowColumnLine(img_cur).vertical()
     logging.info("Draw Auxiliary Lines By Density")
     try:
@@ -374,22 +412,43 @@ def draw_auxiliary_line_byDensity():
     for n, hor in enumerate(m_h):
         #page_img.create_line(0,hor[1]*ratio, wid*ratio, hor[1]*ratio,fill = "green", activewidth=3)
         id = page_img.create_line(0,hor[1]*ratio, wid*ratio, hor[1]*ratio,fill = "green", activewidth=3, tags=('hor', "hor_{}".format(n)))
-        print(id)
+        #print(id)
     
     for n, vert in enumerate(m_v):
         id = page_img.create_line(vert[1]*ratio, 0, vert[1]*ratio, hei*ratio, fill = "blue", activewidth=3,tags=('vert', "vert{}".format(n)))
-        print(id)
+        #print(id)
     hide_buttons(True)
-    page_img.bind( "<Double-1>", lambda x: get_lines(x))
+    page_img.bind( "<Double-1>", lambda x: del_lines(x, ratio ))
 
-def get_lines(event):
-    print(page_img.find_closest(event.x, event.y))
+def del_lines(event, line_ratio):
+    """
+    this function is to delete the auxiliary lines canvas in the GUI
+
+    Parameters
+    ----------
+    event : mouse operation
+    """
+    global m_h
+    global m_v
+    global chk
+    print("the closest line coordinate:",page_img.find_closest(event.x, event.y))
     if page_img.find_closest(event.x, event.y) != (2,):
+        
         page_img.delete(page_img.find_closest(event.x, event.y))
+        #item_id = page_img.find_closest(event.x, event.y)[0]
+        print("event x,y",event.x/line_ratio, event.y/line_ratio)
+        chk = event.x
+        m_v = [v for v in m_v if abs(int(event.x/line_ratio)- v[-1]) >=2]
+        m_h = [h for h in m_h if abs(int(event.y/line_ratio)- h[-1]) >=2]
 
-   
-    
+
+
+
 def draw_auxiliary_line_byHough():
+    """
+    this function is to draw auxiliary via another method
+      which is by hough transform, and create lines convas in the GUI
+    """
     global img_cur
     global m_h
     global m_v
@@ -410,6 +469,10 @@ def draw_auxiliary_line_byHough():
         print(id)
     
 def show_mask():
+    """
+    this function is to display mask that generated from the img_cur
+
+    """
     global img_cur
     global img_stack
     logging.info("Checking Image Mask")
@@ -419,18 +482,7 @@ def show_mask():
     return
 
 
-
-def del_line(linename):
-    global line
-    line = linename
-    print("delete",linename)
-    page_img.dtag('all', 'horSelected')
-    page_img.addtag('horSelected', 'withtag', line)
-    page_img.delete('horSelected')
-    page_img.delete(line)
-
-
-
+#these three function is to supporting the mouse operations
 def on_move_press(event):
     global curX, curY
     curX, curY = (event.x, event.y)
@@ -466,6 +518,14 @@ def create_rectangle(x1, y1, x2, y2, **kwargs):
 
 
 def crop_manul():
+    """
+    this function is to crop the image as per the user's dragged ractangle
+      it will print the details/ the size of the cropped image
+    Returns
+    -------
+    None.
+
+    """
     global img_cur
     global img_stack
     img_stack.push(img_cur.copy())
@@ -489,6 +549,14 @@ def crop_manul():
         pass
 
 def magic_stick():
+    """
+    this function is to hide the table border that are detected.
+
+    Returns
+    -------
+    None.
+
+    """
     global img_no_border
     global ocr_indicator
     global img_cur
@@ -503,6 +571,11 @@ def magic_stick():
 
 #===========================eraser=============================
 def eraser():
+    """
+    this function is to convert the dragged area to white color
+       thus it can be used to remove noise manually
+       the coordinate with image and GUI frame need to be take into consideration
+    """
     global ocr_indicator
     global img_cur
     global img_stack
@@ -531,6 +604,9 @@ def eraser():
     
 #===========================================================export functions============================================================
 def img2txt():
+    """
+    temporarily not in used. still try and error 
+    """
     global ocr_indicator
     name = filedialog.asksaveasfile(mode='w',defaultextension=".txt")
     if name is None:
@@ -545,6 +621,9 @@ def img2txt():
     
 
 def img2pdf():
+    """
+    to convert the non-editable PDF to editable/ searchable PDF
+    """
     name = filedialog.asksaveasfile(mode='w',defaultextension=".pdf")
     if name is None:
         return
@@ -553,9 +632,15 @@ def img2pdf():
 
 
 def img2excel():
+    """
+    this is a very important function which is to convert image to pandas dataframe 
+      and display it
+    the procedure is to extract the content by tabula as default editable image
+    if none table detected, it means that it is a scanned pdf and need to treat it as iamges
+    """
     global df
     global page_width
-    
+    global m_v
     try:
         df = exp.page_exports(img_cur, filename.name).img2df(filename.name,page_no, 
                              area = [start_y, start_x,curY,curX], shown_wid = img_shown_width)[0]
@@ -564,10 +649,20 @@ def img2excel():
         df = None
         print("fail from tabula")
     try:
-        if df.empty:
-            df = img2df(img_cur) #the col by col extraction function
+        if not df :
+            if len(m_v) ==0:
+                df = img2df(img_cur) #the col by col extraction function
+            else:
+                print("User removed some lines")
+                m_v = [v[-1] for v in m_v]
+                df = img2df(img_cur,v_line= m_v)
     except:
-        if not df:
+        if df.empty:
+            if len(m_v) ==0:
+                df = img2df(img_cur) #the col by col extraction function
+            else:
+                print("User removed some lines")
+                df = img2df(img_cur,v_line= m_v)
             df = img2df(img_cur)
     #page_width = pdf_obj.get_page_width(page_no)
     #df = exp.page_exports(img_cur).crop_page(filename.name, page_no, page_width,img_shown_width,start_x, start_y, curX, curY)
@@ -580,8 +675,13 @@ def img2excel():
     #pt.place(relx=0, rely=0, relwidth=1, relheight=0.8)
 
     return
+    
 #===================================pop up windows=============================================
 def popup_entrybox():
+    """
+    this is to pop up the editable text windows to display the extracted the content(long string).
+
+    """
     global output_txt
     popup_window = tk.Toplevel(height = 500, width = 700)
     popup_window.wm_title("OCR output")
@@ -620,6 +720,10 @@ def popup_entrybox():
     remove_space_btn.place(relx = 0.3, rely=0.92, relwidth=0.15, relheight=0.06, anchor='n')
     
 def create_save():
+    """
+    this function is to save the content extracted from the image
+      to the text file.
+    """
     name = filedialog.asksaveasfile(mode='w',defaultextension=".txt")
     if name is None:
         return
@@ -629,6 +733,9 @@ def create_save():
     messagebox.showinfo("", "Finish!")
     
 def remove_space():
+    """
+    this function is to remove the duplicated space or line separaters in the outcome string
+    """
     text_inEntry = output_txt.get(1.0, "end-1c").split("\n")
     text_inEntry = [substr for substr in text_inEntry if (substr != "") & (not substr.isspace())]
     text_inEntry = "\n".join(text_inEntry)
@@ -667,10 +774,16 @@ def dilate_img():
 
 #===========================rotate img=========================
 def orientation_det():
+    """
+    this function is to detect the orientation of the page input
+    """
     orient = pytesseract.image_to_osd(img_cur)
     messagebox.showinfo("", orient)
 
 def rot_clockwise():
+    """
+    this function is to rotate the image 90 degree clockwise
+    """    
     global img_cur
     global img_stack
     #img_prev = img_cur.copy()
@@ -679,6 +792,9 @@ def rot_clockwise():
     show_cur_img()
 
 def rot_Counterclockwise():
+    """
+    this function is to rotate the image 90 degree counterclockwise
+    """    
     global img_cur
     global img_stack
     img_stack.push(img_cur.copy())
@@ -839,9 +955,15 @@ button_pdf.place(relx=cfg.btn_x[13], relheight=1, relwidth=cfg.btn_width)
 savebtn = img2icon(cfg.savebtnBlue, 32)
 button_save = tk.Button(frame, text = "", font = 9, bg = "white", image = savebtn, border="0", command=lambda: show_buttons()) 
 
+#
 maskbtn = img2icon(cfg.mask, 32)
 button_mask = tk.Button(frame, text = "", font=9,bg="white", image = maskbtn, border="0", command = lambda: show_mask())
 
+langbtn = img2icon(cfg.lang, 32)
+button_lang = tk.Button(frame, text = "", font=9,bg="white", image = langbtn, border="0", )
+button_lang.place(relx=cfg.btn_x[14], relheight=1, relwidth=cfg.btn_width)
+
+#the choice of getting auxiliary method
 chc_1 = tk.Radiobutton(frame, text = cfg.choice[0][0], indicatoron = 0, value = cfg.choice[0][1], command=lambda: draw_auxiliary_line_byDensity()) #by density
 chc_2 = tk.Radiobutton(frame, text = cfg.choice[1][0], indicatoron = 0, value = cfg.choice[1][1], command=lambda: draw_auxiliary_line_byHough())  #by hough line
 

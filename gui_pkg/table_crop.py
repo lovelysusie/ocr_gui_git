@@ -21,6 +21,23 @@ import ocr_pkg.img_recgonition as img_ocr
 
 class get_PerspectiveTransform():
     def __init__(self, img_in, size, max_gap = 20):
+        """
+        this funtion is to straighten the image
+
+        Parameters
+        ----------
+        img_in : numpy image array
+            image need to be straighten
+        size : integer
+            the size of mophological kernel.
+        max_gap : integer, optional
+            the maximun gap that one column can contain. The default is 20.
+
+        Returns
+        -------
+        None.
+
+        """
         self.img_in = img_in
         self.size = size
         self.max_gap = max_gap
@@ -36,6 +53,17 @@ class get_PerspectiveTransform():
     
     #setp two eroding
     def tips_collect(self, kernel_in):
+        """
+        this function is to get the 4 tips(corner) of the table
+
+        Parameters
+        ----------
+        kernel_in : numpy array
+
+        Returns
+        -------
+        tips_col : list of column coordinates
+        """
         if len(self.img_in.shape) == 3:
             gray_img = cv2.cvtColor(self.img_in,cv2.COLOR_BGR2GRAY)
         else:
@@ -184,6 +212,20 @@ def draw_auxiliary_line(img_in,margin, direction):
 #---------------------remove table border-----------------------------
   
 def rm_lines(img_in):
+    """
+    this function is to remove the table border according 
+
+    Parameters
+    ----------
+    img_in : numpy image array
+        the image that needs to be processed
+
+    Returns
+    -------
+    img_no_border : numpy image array
+        the processed image
+
+    """
     mask, joint = detectTable(img_in).run()
     kernel = np.ones((2, 2), np.uint8)
     mask = cv2.dilate(mask, kernel, iterations =2)
@@ -192,9 +234,13 @@ def rm_lines(img_in):
     return img_no_border
 
 
-#---------------------remove table border-----------------------------
+#---------------------set up the stack object-----------------------------
 class Stack:
     def __init__(self):
+        """
+        this class is to create a stack object
+         for the OCR GUI to save image history
+        """
         self.items = []
     
     def isEmpty(self):
@@ -204,6 +250,9 @@ class Stack:
         self.items.append(item)
         
     def pop(self):
+        """
+        to get the last item inserted in
+        """
         return self.items.pop()
     
     def peek(self):

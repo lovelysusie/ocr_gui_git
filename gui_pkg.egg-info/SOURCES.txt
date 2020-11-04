@@ -4,7 +4,6 @@ gui_pkg/exports.py
 gui_pkg/img2table.py
 gui_pkg/pdf_display_bespoke.py
 gui_pkg/table_crop.py
-gui_pkg/test.py
 gui_pkg.egg-info/PKG-INFO
 gui_pkg.egg-info/SOURCES.txt
 gui_pkg.egg-info/dependency_links.txt

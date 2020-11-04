@@ -14,8 +14,9 @@ import numpy as np
 import cv2
 from ocr_pkg.table_detect import detectTable
 
+folder = r"C:\Users\haonan.liu\OneDrive - Driver Group PLC\Documents\Python Scripts\ocr_gui_exe(Jul)"
 
-def img2df(img):
+def img2df(img, v_line = None):
     """
     This function is to convert image to a pandas data frame and extract its content
     
@@ -32,28 +33,36 @@ def img2df(img):
     """
     df = {}
     kernel = np.ones((2, 2), np.uint8)
-
-    erode = cv2.erode(img.copy(),kernel,iterations = 2)
-    mask, joint = detectTable(erode).run()
     
+    col_txt = None
+    erode = cv2.erode(img.copy(),kernel,iterations = 2)
+    
+    mask, joint = detectTable(erode).run()
     houghs = img_seg.img_line_det(mask,3,20,220)
     rows, cols = img_ocr.filter_line(houghs,5)
-    # check the rows and cols is correct or not, if not need to change some parameters
+    if v_line:
+        cols = v_line
+        print("Column lines getting from user operation")
+        # check the rows and cols is correct or not, if not need to change some parameters
     #img_ocr.draw_lines(img.copy() ,cols, rows, r"D:\samples\houghline111.png" )
     if len(cols) != 0:
+        print("{} column lines detected".format(len(cols)))
         for col_n, (left,right) in enumerate(zip(cols, cols[1:])):
             print("left {}, right {}".format(left, right))
+            
             img_col = img[:,left:right]
             col_txt = pytesseract.image_to_data(img_col)
-            
             try:
                 col_cell = get_col_txt(col_txt, rows)
                 col_name = "Col "+str(col_n)
                 df[col_name] = col_cell
+                print("manage to get a df")
             except:
+                print("error in converting")
                 pass
         
     else:
+        print("column lines 0")
         col_txt = pytesseract.image_to_data(img)
         col_cell = get_col_txt(col_txt, rows)
         df['content'] = col_cell
@@ -96,7 +105,3 @@ def get_col_txt(data_str,rows_y_list=None):
 
 
     
-if __name__ == "__main__":
-    path = r"D:\samples\GaussianBlur.jpg"
-    img_cur = cv2.imread(path)
-    result = img2df(img_cur)

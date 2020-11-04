@@ -6,10 +6,6 @@ Created on Fri Nov 15 09:26:17 2019
 """
 
 import os
-#os.environ['PATH'] = os.environ['PATH'] + ';' + 'C:\\Driver_Trett\\TAT\\OCR Program\\ImageMagick-7.0.8-Q16'
-#os.environ['MAGIC_HOME'] = 'C:\\Driver_Trett\\TAT\\OCR Program\\ImageMagick-7.0.8-Q16'
-#os.environ['MAGICK_CODER_MODULE_PATH'] = 'C:\\Driver_Trett\\TAT\\OCR Program\\ImageMagick-7.0.8-Q16\\modules\\coders'
-#os.environ['PATH'] = os.environ['PATH'] + ';' + 'C:\\Driver_Trett\\TAT\\OCR Program\\poppler\\bin'
 cur_dir = os.getcwd()
 
 os.environ['PATH'] = os.environ['PATH'] + ';' + cur_dir +'\\poppler\\bin'
@@ -26,6 +22,9 @@ from PyPDF2 import PdfFileWriter, PdfFileReader
 
 class display_pdf():
     def __init__(self, path_in):
+        """
+        this function is to display pdf pages on the tkinter windows
+        """
         self.path_in = path_in
         #self.page_no = page_no
         self.temp_img_path = cfg.temp_img_path
@@ -85,6 +84,9 @@ class display_pdf():
         return page_width
     
     def extrac_text_from_page(self, page_number):
+        """
+        to extract content from the specific 
+        """
         writer = PdfFileWriter()
         writer.addPage(self.pdfReader.getPage(page_number))
         outfile = open(self.out, 'wb')
